@@ -2376,7 +2376,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sonde_xilinx_schlib:74LS125"
+		(symbol "sonde_xilinx:74LS125"
 			(pin_names
 				(offset 0.762)
 			)
@@ -2714,7 +2714,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sonde_xilinx_schlib:C"
+		(symbol "sonde_xilinx:C"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2842,7 +2842,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sonde_xilinx_schlib:CONN_6"
+		(symbol "sonde_xilinx:CONN_6"
 			(pin_names
 				(offset 0.762)
 				(hide yes)
@@ -3016,7 +3016,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sonde_xilinx_schlib:CP"
+		(symbol "sonde_xilinx:CP"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3145,7 +3145,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sonde_xilinx_schlib:DB25"
+		(symbol "sonde_xilinx:DB25"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -4330,7 +4330,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sonde_xilinx_schlib:DB9"
+		(symbol "sonde_xilinx:DB9"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -4907,7 +4907,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sonde_xilinx_schlib:DIODESCH"
+		(symbol "sonde_xilinx:DIODESCH"
 			(pin_numbers
 				(hide yes)
 			)
@@ -5034,7 +5034,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sonde_xilinx_schlib:GND"
+		(symbol "sonde_xilinx:GND"
 			(power)
 			(pin_names
 				(offset 0)
@@ -5122,7 +5122,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sonde_xilinx_schlib:PWR_FLAG"
+		(symbol "sonde_xilinx:PWR_FLAG"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -5212,7 +5212,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sonde_xilinx_schlib:R"
+		(symbol "sonde_xilinx:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -5325,7 +5325,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sonde_xilinx_schlib:VCC"
+		(symbol "sonde_xilinx:VCC"
 			(power)
 			(pin_names
 				(offset 0)
@@ -7061,7 +7061,7 @@
 		(uuid "ed0256ea-68f3-4268-a307-5564380719da")
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:DB25")
+		(lib_id "sonde_xilinx:DB25")
 		(at 44.45 71.12 0)
 		(mirror y)
 		(unit 1)
@@ -7110,6 +7110,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7188,7 +7189,7 @@
 			(uuid "3b93b690-cb7e-4f96-aeb8-6dfc069a3b26")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "J1")
 					(unit 1)
@@ -7197,7 +7198,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:R")
+		(lib_id "sonde_xilinx:R")
 		(at 100.33 25.4 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7245,6 +7246,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7254,7 +7256,7 @@
 			(uuid "8929efd9-39db-43e2-a7c0-5edf48ecc3cd")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "R1")
 					(unit 1)
@@ -7263,7 +7265,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:R")
+		(lib_id "sonde_xilinx:R")
 		(at 100.33 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7311,6 +7313,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7320,7 +7323,7 @@
 			(uuid "3e075ea8-1d37-4451-b4a4-f58fcd8ee671")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "R4")
 					(unit 1)
@@ -7329,7 +7332,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:R")
+		(lib_id "sonde_xilinx:R")
 		(at 100.33 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7377,6 +7380,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7386,7 +7390,7 @@
 			(uuid "1a521706-e793-497f-80c0-6f6740711122")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "R6")
 					(unit 1)
@@ -7395,7 +7399,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:R")
+		(lib_id "sonde_xilinx:R")
 		(at 100.33 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7443,6 +7447,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7452,7 +7457,7 @@
 			(uuid "ebc22734-1666-4a7d-b842-12e84cec97a3")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "R10")
 					(unit 1)
@@ -7461,7 +7466,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:R")
+		(lib_id "sonde_xilinx:R")
 		(at 100.33 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7509,6 +7514,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7518,7 +7524,7 @@
 			(uuid "daca4702-bf2f-4de6-961c-636a47227e5a")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "R9")
 					(unit 1)
@@ -7528,7 +7534,7 @@
 	)
 	(symbol
 		(lib_name "74LS125_2")
-		(lib_id "sonde_xilinx_schlib:74LS125")
+		(lib_id "sonde_xilinx:74LS125_2")
 		(at 118.11 40.64 0)
 		(mirror y)
 		(unit 1)
@@ -7579,6 +7585,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "14"
@@ -7597,34 +7604,34 @@
 			(uuid "76a123eb-6a4c-459e-ab8e-248f3cbbb350")
 		)
 		(pin "4"
-			(uuid "7bc3fbee-29df-421a-aac9-e1a40effc7a1")
+			(uuid "3eca055f-1608-494e-a0bf-85e33fba9af3")
 		)
 		(pin "5"
-			(uuid "10fa60d4-73cd-4a7b-8898-a23bdd85033e")
+			(uuid "07d16eb8-d137-4756-9029-9fffa654d967")
 		)
 		(pin "6"
-			(uuid "349055a8-e1bf-45a0-8152-3b4ea0b932ce")
+			(uuid "4f9888ea-f4c5-45af-9392-9cd483abb601")
 		)
 		(pin "10"
-			(uuid "a69af50d-1b0b-49b2-8d12-354c5cc3311a")
-		)
-		(pin "9"
-			(uuid "c86d83ab-827c-4cc0-a906-aa40b6755a17")
+			(uuid "c9bd8b00-56d8-4a2e-9ca3-1d0a74c6d4ed")
 		)
 		(pin "8"
-			(uuid "cf3f958f-d4e7-4710-982e-48f46694c074")
+			(uuid "72b9fa88-d691-4e74-b993-04b0879b8a5a")
+		)
+		(pin "9"
+			(uuid "b1991a93-8826-464b-b0d3-ecff7666f0de")
 		)
 		(pin "13"
-			(uuid "08072edb-bc82-49b5-af60-11f9077e7d1b")
-		)
-		(pin "12"
-			(uuid "a62f2fa7-e81a-4b4e-90b6-4f650921299f")
+			(uuid "b272d11e-5931-4afb-88ea-629f56e27383")
 		)
 		(pin "11"
-			(uuid "25c7d0a9-d182-4231-b3b1-68119b2e0c3f")
+			(uuid "6844534f-5799-40c6-a8a8-d1581886a865")
+		)
+		(pin "12"
+			(uuid "d04ffe0d-e723-463b-bcea-2237e223f877")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "U2")
 					(unit 1)
@@ -7634,7 +7641,7 @@
 	)
 	(symbol
 		(lib_name "74LS125_1")
-		(lib_id "sonde_xilinx_schlib:74LS125")
+		(lib_id "sonde_xilinx:74LS125_1")
 		(at 137.16 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7684,6 +7691,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "14"
@@ -7702,34 +7710,34 @@
 			(uuid "f6be1dc1-019f-41a2-a3cb-8efa6938777c")
 		)
 		(pin "4"
-			(uuid "81dde156-9e22-46f6-9814-9381e3ef5327")
+			(uuid "6116a62b-9074-4f21-8d3b-d2208cfcf8f1")
 		)
 		(pin "5"
-			(uuid "9ac5f2bb-41c9-4302-822e-b168e3b3498d")
+			(uuid "2ce9ebf8-b1db-41b3-8ffe-51a0dc844827")
 		)
 		(pin "6"
-			(uuid "b4676d2e-a034-4a5c-8eab-015203ec0148")
+			(uuid "4594efd0-a67b-41a0-b07e-63b4528d5550")
 		)
 		(pin "10"
-			(uuid "7c20f072-d6ee-423a-91d3-181c7de10ebc")
-		)
-		(pin "9"
-			(uuid "a994f9c4-a42f-4889-9809-80c271559c80")
+			(uuid "f1ba450a-f0db-4d81-9163-9ff4a905c0ca")
 		)
 		(pin "8"
-			(uuid "714292f6-e48d-41f5-8dac-5dcfafced457")
+			(uuid "f7cdaa15-b0e0-4fc3-808b-1e79b488c2b7")
+		)
+		(pin "9"
+			(uuid "74b25eba-0113-412b-a7d2-b446f41da4f9")
 		)
 		(pin "13"
-			(uuid "aaaa0f5e-82e3-40fa-ad78-e25c8e8604e6")
-		)
-		(pin "12"
-			(uuid "e7689dbf-4aaf-46b5-8e06-7d05eb9c1b5a")
+			(uuid "c52f5163-7a31-4100-bb44-6b9daca0261b")
 		)
 		(pin "11"
-			(uuid "dddece3a-5151-4afa-b082-e7b9a0c8b38c")
+			(uuid "0cf725ed-18cd-4de0-b9ed-c4c0ec1ce2c5")
+		)
+		(pin "12"
+			(uuid "3bb6c11d-bea3-4d11-b2c1-c85f4e894d53")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "U1")
 					(unit 1)
@@ -7739,7 +7747,7 @@
 	)
 	(symbol
 		(lib_name "74LS125_6")
-		(lib_id "sonde_xilinx_schlib:74LS125")
+		(lib_id "sonde_xilinx:74LS125_6")
 		(at 138.43 66.04 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -7789,6 +7797,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "14"
@@ -7796,6 +7805,15 @@
 		)
 		(pin "7"
 			(uuid "2a2f8709-c9c9-4b54-bce5-c2e3d848120f")
+		)
+		(pin "1"
+			(uuid "cfa37500-7802-4573-a0cb-cbfc51644a10")
+		)
+		(pin "2"
+			(uuid "cc0e4847-367e-4742-9fcc-a3313f270146")
+		)
+		(pin "3"
+			(uuid "9fb16aeb-2c56-4a26-ba6f-6290b645a771")
 		)
 		(pin "4"
 			(uuid "e6fbfa7a-9f20-49be-ac82-1df8aa12126f")
@@ -7806,35 +7824,26 @@
 		(pin "6"
 			(uuid "f9532623-d991-4f8b-b239-726fd62e66a8")
 		)
-		(pin "1"
-			(uuid "ecc93d26-bace-44e9-8279-f8387151ee5d")
-		)
-		(pin "2"
-			(uuid "d8086006-f760-4fba-9200-af4f38ea9cf5")
-		)
-		(pin "3"
-			(uuid "a1596263-5bea-4b93-bebd-429d808fb36c")
-		)
 		(pin "10"
-			(uuid "7a81c1cf-ee88-40ca-b871-3e641cab2091")
-		)
-		(pin "9"
-			(uuid "203e821a-f178-4bea-aa3f-86ac8d779d36")
+			(uuid "90348711-ecf2-40b5-8944-5e88a294bded")
 		)
 		(pin "8"
-			(uuid "bb893462-3ad0-4d46-8f1e-fdaf578057fd")
+			(uuid "46950d5a-4896-4cf4-b9f5-6ca21eb1185c")
+		)
+		(pin "9"
+			(uuid "09047301-abf3-476b-a22b-803395cb898e")
 		)
 		(pin "13"
-			(uuid "75ee1539-0828-49ff-84a8-f8c2826f0f45")
-		)
-		(pin "12"
-			(uuid "268820b2-0268-42b1-b7ed-fccde425912f")
+			(uuid "20b1259b-632a-44e0-9c2e-7bab43811e9a")
 		)
 		(pin "11"
-			(uuid "9ea34a96-ac74-4bd6-992f-db50f30a15dd")
+			(uuid "21699eca-c143-408d-8c59-283ddf05549a")
+		)
+		(pin "12"
+			(uuid "c5802e84-3e22-41ac-9840-e22a350871a8")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "U1")
 					(unit 2)
@@ -7844,7 +7853,7 @@
 	)
 	(symbol
 		(lib_name "74LS125_7")
-		(lib_id "sonde_xilinx_schlib:74LS125")
+		(lib_id "sonde_xilinx:74LS125_7")
 		(at 138.43 83.82 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -7894,6 +7903,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "14"
@@ -7901,6 +7911,24 @@
 		)
 		(pin "7"
 			(uuid "e84bac41-8303-4296-8856-42af7eb468d3")
+		)
+		(pin "1"
+			(uuid "80a6f28d-361d-426a-9e48-56f47400f5a4")
+		)
+		(pin "2"
+			(uuid "5077ed7e-8fa7-4bd2-bad7-e0d4c19baa7f")
+		)
+		(pin "3"
+			(uuid "b2e3ec7a-82f5-454a-99e3-8d3e802b8c47")
+		)
+		(pin "4"
+			(uuid "8e22b330-df95-4bb0-b1d5-aa3cfddcf564")
+		)
+		(pin "5"
+			(uuid "2cde10ad-45a6-4525-a318-8032d52e4a67")
+		)
+		(pin "6"
+			(uuid "5ebb2227-b851-416c-95ce-b0fc11caf4df")
 		)
 		(pin "10"
 			(uuid "e9ed5894-ae63-430b-a5a6-8ffae6679dc7")
@@ -7911,35 +7939,17 @@
 		(pin "9"
 			(uuid "8da70ee8-d6f5-4480-8302-695672a4b24e")
 		)
-		(pin "1"
-			(uuid "9cf2e7e5-5920-44f0-83b4-bae7525e1c79")
-		)
-		(pin "2"
-			(uuid "a5bf634d-d472-4c59-b0b1-070a7704378d")
-		)
-		(pin "3"
-			(uuid "5f38f294-4e6d-4d89-9566-f1b9259af84d")
-		)
-		(pin "4"
-			(uuid "a8525f07-83cd-4a74-b58e-02d56b845ffd")
-		)
-		(pin "5"
-			(uuid "3c361a79-801e-4dee-857b-7283e1bb7473")
-		)
-		(pin "6"
-			(uuid "796953f0-21b6-4a49-b693-fe417f1260f0")
-		)
 		(pin "13"
-			(uuid "aaa82e16-f61a-4336-92ff-5e721262e555")
-		)
-		(pin "12"
-			(uuid "3f8937b4-caad-404d-b2c1-837a1f667936")
+			(uuid "389aa0f6-57db-424e-9bc8-9eb61c79e6f1")
 		)
 		(pin "11"
-			(uuid "1c41c7a1-3d73-4dbe-bd69-0a8fd5474b64")
+			(uuid "1218a389-a172-4810-a600-6590b597f374")
+		)
+		(pin "12"
+			(uuid "4a492d22-592e-433d-832e-519948467600")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "U1")
 					(unit 3)
@@ -7948,7 +7958,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:74LS125")
+		(lib_id "sonde_xilinx:74LS125")
 		(at 138.43 106.68 0)
 		(unit 4)
 		(exclude_from_sim no)
@@ -7998,6 +8008,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "14"
@@ -8005,6 +8016,33 @@
 		)
 		(pin "7"
 			(uuid "f8abfe3a-45e8-4f50-91f8-61f2c97bdeb3")
+		)
+		(pin "1"
+			(uuid "0bcae2a2-4c84-49af-80e1-85ca1d83276b")
+		)
+		(pin "2"
+			(uuid "7d33c8a7-c95a-4c1e-8db3-09e4b6d33d9b")
+		)
+		(pin "3"
+			(uuid "7ab61f85-0f00-4193-b7e0-7b5d3d22f6da")
+		)
+		(pin "4"
+			(uuid "242b6cd1-8512-4c31-8796-06a3cc739e16")
+		)
+		(pin "5"
+			(uuid "abc6919a-fa57-46f6-8d51-12d72b7c764c")
+		)
+		(pin "6"
+			(uuid "b79ebf25-cd9d-497d-8f76-b06c08720061")
+		)
+		(pin "10"
+			(uuid "09be196c-a35c-4ea8-b01d-95d08b0414a4")
+		)
+		(pin "8"
+			(uuid "446b9cd3-a91b-4c81-a4c1-b15b3d57d8a6")
+		)
+		(pin "9"
+			(uuid "8a920f3d-2d0c-48ce-b574-fda63cab5d3f")
 		)
 		(pin "13"
 			(uuid "ff58376e-5eca-4d85-b061-90d13bf7e25d")
@@ -8015,35 +8053,8 @@
 		(pin "12"
 			(uuid "6a5714fb-14bf-4ebe-8f14-06537c524175")
 		)
-		(pin "1"
-			(uuid "30f31e31-6360-494b-877a-f65a89eb625a")
-		)
-		(pin "2"
-			(uuid "21e9a9f6-6335-47d9-b5f4-d90190ea1806")
-		)
-		(pin "3"
-			(uuid "befe437e-d4f7-43b7-ab1f-23c7544779ef")
-		)
-		(pin "4"
-			(uuid "ada9339c-2b7d-4a4c-89cb-0bf8089bc018")
-		)
-		(pin "5"
-			(uuid "f7b2017f-01c6-4fe5-9c83-ff5e79ab04ce")
-		)
-		(pin "6"
-			(uuid "6bbc288c-f199-4c7a-bdc3-978eb8f1f57d")
-		)
-		(pin "10"
-			(uuid "fe769fc8-72fe-400d-a1c1-7bdce29e8d3f")
-		)
-		(pin "9"
-			(uuid "205ebc3c-7b68-40f9-9465-8ecabc7b202c")
-		)
-		(pin "8"
-			(uuid "6e3efa58-953a-452e-b6d0-40193bd62363")
-		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "U1")
 					(unit 4)
@@ -8053,7 +8064,7 @@
 	)
 	(symbol
 		(lib_name "74LS125_3")
-		(lib_id "sonde_xilinx_schlib:74LS125")
+		(lib_id "sonde_xilinx:74LS125_3")
 		(at 43.18 175.26 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -8103,6 +8114,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "14"
@@ -8110,6 +8122,15 @@
 		)
 		(pin "7"
 			(uuid "75f4ee50-0721-4584-bd63-0d8535c63332")
+		)
+		(pin "1"
+			(uuid "c2a350de-2837-4c66-a946-2212d0504088")
+		)
+		(pin "2"
+			(uuid "5bc905b3-95de-4ef1-8de5-6fd1ef48dbd4")
+		)
+		(pin "3"
+			(uuid "3d888e4f-4129-4673-9213-ed502a44b346")
 		)
 		(pin "4"
 			(uuid "43334102-71f4-4c0c-b54f-468559858e25")
@@ -8120,35 +8141,26 @@
 		(pin "6"
 			(uuid "21e45a90-9b53-4c63-bf78-fbfb14356535")
 		)
-		(pin "1"
-			(uuid "1d2ea9a0-1530-47b2-a0ed-2bc2f55e9728")
-		)
-		(pin "2"
-			(uuid "6931e863-ede7-4581-9930-b7b02346f039")
-		)
-		(pin "3"
-			(uuid "b504bd08-23c5-4e6d-8012-831194367bca")
-		)
 		(pin "10"
-			(uuid "54c60c49-a5df-491a-becd-b8e1afc635f3")
-		)
-		(pin "9"
-			(uuid "a35b6456-112d-469d-ba65-6e24bbd88aaf")
+			(uuid "117a7783-881a-4443-890a-ee3172a25fc2")
 		)
 		(pin "8"
-			(uuid "c92b2ae0-934b-42eb-9aaf-5259a426c735")
+			(uuid "6f4ec29a-d3ab-444c-884c-89fe325b663b")
+		)
+		(pin "9"
+			(uuid "6c2d990d-237d-4467-bf68-30c8d6c0e3f0")
 		)
 		(pin "13"
-			(uuid "6a0a323a-5d75-4834-843a-bba569a3a1c2")
-		)
-		(pin "12"
-			(uuid "bc335fc1-b177-402b-9a0a-73ea1c30b7d3")
+			(uuid "87d25897-98cc-4157-81ea-abad66b27fda")
 		)
 		(pin "11"
-			(uuid "5c57b9c4-c1b2-4e49-9cbb-6bdcd48b286e")
+			(uuid "6e9de038-ddcc-4b0b-81d9-759088476426")
+		)
+		(pin "12"
+			(uuid "1a4bd48a-b5c1-4941-bb1a-584950ca26a6")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "U2")
 					(unit 2)
@@ -8158,7 +8170,7 @@
 	)
 	(symbol
 		(lib_name "74LS125_4")
-		(lib_id "sonde_xilinx_schlib:74LS125")
+		(lib_id "sonde_xilinx:74LS125_4")
 		(at 43.18 158.75 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -8208,6 +8220,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "14"
@@ -8215,6 +8228,24 @@
 		)
 		(pin "7"
 			(uuid "a6f252b8-76eb-4fd2-a2c1-29f1ac466266")
+		)
+		(pin "1"
+			(uuid "1dcc550c-fbbf-4ab9-8d26-be3b50b38868")
+		)
+		(pin "2"
+			(uuid "58356a1f-63f2-4758-9e35-c2be907a71cd")
+		)
+		(pin "3"
+			(uuid "adfdf541-f481-4f0b-8bd9-d0237564d50b")
+		)
+		(pin "4"
+			(uuid "74392eec-f148-4077-9a5a-9d36885c0087")
+		)
+		(pin "5"
+			(uuid "29b623dd-3b8a-4b43-b7a6-9f4c8af7f95a")
+		)
+		(pin "6"
+			(uuid "e4e251ab-5eb1-4a26-9341-1675a6128f7b")
 		)
 		(pin "10"
 			(uuid "0223cb24-c72c-4339-871e-20b1ac8e03be")
@@ -8225,35 +8256,17 @@
 		(pin "9"
 			(uuid "6e83bf00-dd28-4dbc-9219-8ce43e9018f7")
 		)
-		(pin "1"
-			(uuid "5d5e47bb-1542-462a-a091-7b7b3774b92f")
-		)
-		(pin "2"
-			(uuid "bdba266c-5720-43ae-8954-44bb72c31548")
-		)
-		(pin "3"
-			(uuid "eaeb20d8-52ef-4545-ba28-2a3dace297d2")
-		)
-		(pin "4"
-			(uuid "ea74fd83-d9b2-4792-a8c9-53126d50cd0f")
-		)
-		(pin "5"
-			(uuid "561062de-a1ef-4684-bd09-a748588c8174")
-		)
-		(pin "6"
-			(uuid "bb634844-22fe-44d1-a2bd-8fb59a3cd5fb")
-		)
 		(pin "13"
-			(uuid "e907db77-ecbb-40ba-8a4a-5f06814f12f3")
-		)
-		(pin "12"
-			(uuid "3885d6a4-169f-4580-94b4-1e5d435bf4d2")
+			(uuid "d549382c-00ab-4990-89a7-61d82eff0fb5")
 		)
 		(pin "11"
-			(uuid "85aa1161-8145-4869-8804-802fd394084d")
+			(uuid "66d3b5ad-8a6a-47de-ba89-85e63b42e131")
+		)
+		(pin "12"
+			(uuid "44153b40-3a46-404a-9471-775c8fea4f3e")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "U2")
 					(unit 3)
@@ -8263,7 +8276,7 @@
 	)
 	(symbol
 		(lib_name "74LS125_5")
-		(lib_id "sonde_xilinx_schlib:74LS125")
+		(lib_id "sonde_xilinx:74LS125_5")
 		(at 43.18 142.24 0)
 		(unit 4)
 		(exclude_from_sim no)
@@ -8313,6 +8326,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "14"
@@ -8320,6 +8334,33 @@
 		)
 		(pin "7"
 			(uuid "ee7780b1-6e21-4912-bb1f-b9d16c433cd0")
+		)
+		(pin "1"
+			(uuid "0d57052f-a9fe-4abc-9e76-63369276c73a")
+		)
+		(pin "2"
+			(uuid "5e0f1682-b756-4b4b-a561-d80df6ddb4c6")
+		)
+		(pin "3"
+			(uuid "4c0edd6f-1680-428a-8b24-12ad7bc28ca7")
+		)
+		(pin "4"
+			(uuid "d5726dc7-16f1-4399-be84-271becda3cdf")
+		)
+		(pin "5"
+			(uuid "57918a4c-f502-45c4-9f79-02034af652a8")
+		)
+		(pin "6"
+			(uuid "d942c519-1081-41af-9625-2e47d4ea9597")
+		)
+		(pin "10"
+			(uuid "7fda3bca-6952-40a1-a4e1-8e2e8b11fba7")
+		)
+		(pin "8"
+			(uuid "c4489992-e743-43d3-83dc-09080aaa769e")
+		)
+		(pin "9"
+			(uuid "dfae07f1-f114-4b44-9e74-3cbfd00fd569")
 		)
 		(pin "13"
 			(uuid "7a57bedd-07e4-4f9f-9b86-5af51d3fc290")
@@ -8330,35 +8371,8 @@
 		(pin "12"
 			(uuid "cbce42c4-88ec-459a-a61a-9af685d5695a")
 		)
-		(pin "1"
-			(uuid "bab0104d-c1d0-49b8-a169-7cbb6c1c62ca")
-		)
-		(pin "2"
-			(uuid "d3fd4502-474b-4305-89cc-071f9e07e1b5")
-		)
-		(pin "3"
-			(uuid "30d9eb8f-20f1-4dd2-bb14-6a324d6646e6")
-		)
-		(pin "4"
-			(uuid "0f2b3bf4-2dd7-4315-8073-0f632c198134")
-		)
-		(pin "5"
-			(uuid "b48e4232-7063-45ff-b638-c0356579b43b")
-		)
-		(pin "6"
-			(uuid "81ea6137-a1bf-4885-aad6-2a6717763641")
-		)
-		(pin "10"
-			(uuid "09463c46-9f94-4156-be22-23fe8bcab09a")
-		)
-		(pin "9"
-			(uuid "30e4a5e2-361a-4708-941d-224714a88ec4")
-		)
-		(pin "8"
-			(uuid "9a0614ac-ef56-4362-aebb-cec3c2074d30")
-		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "U2")
 					(unit 4)
@@ -8367,7 +8381,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:GND")
+		(lib_id "sonde_xilinx:GND")
 		(at 29.21 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8417,13 +8431,14 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "09b6345e-7c1b-4140-a88f-2cb68419fbff")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "#PWR016")
 					(unit 1)
@@ -8432,7 +8447,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:GND")
+		(lib_id "sonde_xilinx:GND")
 		(at 118.11 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8482,13 +8497,14 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "2972383c-c1cc-4d55-bce6-6cdd7e548ff8")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "#PWR015")
 					(unit 1)
@@ -8497,7 +8513,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:GND")
+		(lib_id "sonde_xilinx:GND")
 		(at 63.5 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8547,13 +8563,14 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "61050f47-206d-4c5b-ad78-fe3278d12ddb")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "#PWR014")
 					(unit 1)
@@ -8562,7 +8579,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:DIODESCH")
+		(lib_id "sonde_xilinx:DIODESCH")
 		(at 114.3 25.4 0)
 		(mirror y)
 		(unit 1)
@@ -8611,6 +8628,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8620,7 +8638,7 @@
 			(uuid "f95278c5-0ece-4553-81eb-efa3dc0e50cc")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "D1")
 					(unit 1)
@@ -8629,7 +8647,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:DIODESCH")
+		(lib_id "sonde_xilinx:DIODESCH")
 		(at 180.34 25.4 0)
 		(mirror y)
 		(unit 1)
@@ -8678,6 +8696,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8687,7 +8706,7 @@
 			(uuid "f85f3dee-4ba0-4802-b618-887ee892b1d3")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "D2")
 					(unit 1)
@@ -8696,7 +8715,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:R")
+		(lib_id "sonde_xilinx:R")
 		(at 149.86 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8744,6 +8763,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8753,7 +8773,7 @@
 			(uuid "d413601c-1e3b-4c08-bd93-bb3b1fbc3e15")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "R2")
 					(unit 1)
@@ -8762,7 +8782,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:R")
+		(lib_id "sonde_xilinx:R")
 		(at 157.48 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8810,6 +8830,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8819,7 +8840,7 @@
 			(uuid "30aaa5eb-83f0-4e11-85de-8084dd7e6250")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "R5")
 					(unit 1)
@@ -8828,7 +8849,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:R")
+		(lib_id "sonde_xilinx:R")
 		(at 168.91 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8876,6 +8897,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8885,7 +8907,7 @@
 			(uuid "390308cd-866d-4b21-8f64-f93d3dcd6be9")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "R14")
 					(unit 1)
@@ -8894,7 +8916,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:C")
+		(lib_id "sonde_xilinx:C")
 		(at 160.02 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8944,6 +8966,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8953,7 +8976,7 @@
 			(uuid "75848d23-8292-4f15-84f2-3b18e961018f")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "C4")
 					(unit 1)
@@ -8962,7 +8985,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:GND")
+		(lib_id "sonde_xilinx:GND")
 		(at 160.02 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9012,13 +9035,14 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "863c9e52-f97f-41ff-910c-5bcf544bc8bd")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "#PWR01")
 					(unit 1)
@@ -9027,7 +9051,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:GND")
+		(lib_id "sonde_xilinx:GND")
 		(at 157.48 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9077,13 +9101,14 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "89d29655-6c79-4db2-acd2-781cd753a905")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "#PWR012")
 					(unit 1)
@@ -9092,7 +9117,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:CP")
+		(lib_id "sonde_xilinx:CP")
 		(at 165.1 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9142,6 +9167,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9151,7 +9177,7 @@
 			(uuid "a5d0a4bb-654c-404d-ad6f-c285a0e5bf26")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "C1")
 					(unit 1)
@@ -9160,7 +9186,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:GND")
+		(lib_id "sonde_xilinx:GND")
 		(at 165.1 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9210,13 +9236,14 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "fdb46ae4-9389-4f46-a949-91bb5224c158")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "#PWR09")
 					(unit 1)
@@ -9225,7 +9252,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:CONN_6")
+		(lib_id "sonde_xilinx:CONN_6")
 		(at 224.79 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9273,6 +9300,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9294,7 +9322,7 @@
 			(uuid "86320bd8-82c6-4f98-8ac9-85ea3bbf84f8")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "P1")
 					(unit 1)
@@ -9303,7 +9331,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:GND")
+		(lib_id "sonde_xilinx:GND")
 		(at 214.63 67.31 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9353,13 +9381,14 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "88ebfce3-3e12-4c3d-b97f-f2a155e88cb2")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "#PWR08")
 					(unit 1)
@@ -9368,7 +9397,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:PWR_FLAG")
+		(lib_id "sonde_xilinx:PWR_FLAG")
 		(at 259.08 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9417,13 +9446,14 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "51edd725-afb3-4ee6-8f2d-37fc202c4a87")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "#FLG05")
 					(unit 1)
@@ -9432,7 +9462,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:GND")
+		(lib_id "sonde_xilinx:GND")
 		(at 259.08 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9482,13 +9512,14 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "4214f8c0-65f1-4828-9326-f0082044d87a")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "#PWR04")
 					(unit 1)
@@ -9497,7 +9528,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:VCC")
+		(lib_id "sonde_xilinx:VCC")
 		(at 147.32 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9546,13 +9577,14 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "374a80eb-4f57-4b53-9dc0-9b64943d4e7a")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "#PWR03")
 					(unit 1)
@@ -9561,7 +9593,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:PWR_FLAG")
+		(lib_id "sonde_xilinx:PWR_FLAG")
 		(at 154.94 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9610,13 +9642,14 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "6091cffc-147c-4837-96c2-5effd9de2e93")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "#FLG02")
 					(unit 1)
@@ -9625,7 +9658,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:DB9")
+		(lib_id "sonde_xilinx:DB9")
 		(at 271.78 99.06 0)
 		(mirror x)
 		(unit 1)
@@ -9674,6 +9707,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9704,7 +9738,7 @@
 			(uuid "666ef44e-433d-4173-9076-be13bd256ddf")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "J2")
 					(unit 1)
@@ -9713,7 +9747,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:R")
+		(lib_id "sonde_xilinx:R")
 		(at 168.91 66.04 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9761,6 +9795,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9770,7 +9805,7 @@
 			(uuid "de9b1c0d-6f43-463f-bd17-068907abee56")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "R11")
 					(unit 1)
@@ -9779,7 +9814,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:R")
+		(lib_id "sonde_xilinx:R")
 		(at 100.33 66.04 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9827,6 +9862,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9836,7 +9872,7 @@
 			(uuid "8b334a3f-0f79-4001-9785-79faf11555b7")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "R7")
 					(unit 1)
@@ -9845,7 +9881,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:R")
+		(lib_id "sonde_xilinx:R")
 		(at 100.33 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9893,6 +9929,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9902,7 +9939,7 @@
 			(uuid "995d5d8f-ad25-4d13-8b7f-aa73a46ccb2c")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "R8")
 					(unit 1)
@@ -9911,7 +9948,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:GND")
+		(lib_id "sonde_xilinx:GND")
 		(at 63.5 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9961,13 +9998,14 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "417d217f-e1f8-44f1-a403-c20391657faf")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "#PWR06")
 					(unit 1)
@@ -9976,7 +10014,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:R")
+		(lib_id "sonde_xilinx:R")
 		(at 168.91 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10024,6 +10062,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10033,7 +10072,7 @@
 			(uuid "39b57c71-f2d1-48b0-a42c-38936b17e699")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "R13")
 					(unit 1)
@@ -10042,7 +10081,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:R")
+		(lib_id "sonde_xilinx:R")
 		(at 168.91 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10090,6 +10129,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10099,7 +10139,7 @@
 			(uuid "bd2e2e17-b643-4775-b1cb-98e1f5491122")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "R12")
 					(unit 1)
@@ -10108,7 +10148,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:C")
+		(lib_id "sonde_xilinx:C")
 		(at 160.02 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10158,6 +10198,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10167,7 +10208,7 @@
 			(uuid "d1a609b4-966e-4693-839a-5d7e49958475")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "C3")
 					(unit 1)
@@ -10176,7 +10217,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:C")
+		(lib_id "sonde_xilinx:C")
 		(at 160.02 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10226,6 +10267,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10235,7 +10277,7 @@
 			(uuid "4729b78b-83f3-4c81-aa69-a40be0fb4d03")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "C2")
 					(unit 1)
@@ -10244,7 +10286,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:C")
+		(lib_id "sonde_xilinx:C")
 		(at 160.02 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10294,6 +10336,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10303,7 +10346,7 @@
 			(uuid "9c1ce62f-a75a-40f0-be3c-6e86b47c9471")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "C5")
 					(unit 1)
@@ -10312,7 +10355,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:GND")
+		(lib_id "sonde_xilinx:GND")
 		(at 160.02 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10362,13 +10405,14 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "b948ad7d-fdae-43b1-91f1-d8ffd38513b8")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "#PWR013")
 					(unit 1)
@@ -10377,7 +10421,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:GND")
+		(lib_id "sonde_xilinx:GND")
 		(at 160.02 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10427,13 +10471,14 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "e5e06bf1-08de-43b8-a424-1d489abc9b04")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "#PWR011")
 					(unit 1)
@@ -10442,7 +10487,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:GND")
+		(lib_id "sonde_xilinx:GND")
 		(at 160.02 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10492,13 +10537,14 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "0ecf9fe3-ca8d-418f-8286-0c064cccb1a0")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "#PWR010")
 					(unit 1)
@@ -10507,7 +10553,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:GND")
+		(lib_id "sonde_xilinx:GND")
 		(at 255.27 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10557,13 +10603,14 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "641ed273-d69c-40ea-8fd3-37dcc6c66bf0")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "#PWR07")
 					(unit 1)
@@ -10572,7 +10619,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sonde_xilinx_schlib:GND")
+		(lib_id "sonde_xilinx:GND")
 		(at 125.73 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10620,13 +10667,14 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "ac9ab809-6919-4e02-9b1d-1c8486217379")
 		)
 		(instances
-			(project ""
+			(project "sonde xilinx"
 				(path "/5ade2176-b41a-41ec-91fe-ba9644669489"
 					(reference "#PWR017")
 					(unit 1)
